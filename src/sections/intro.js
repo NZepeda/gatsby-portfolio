@@ -21,7 +21,7 @@ const IntroBlurb = () => (
 
 const Intro = () => {
   return (
-    <div>
+    <div style={{ display: "flex" }}>
       <IntroBlurb />
       <Image />
     </div>
