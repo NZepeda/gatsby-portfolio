@@ -5,6 +5,7 @@ module.exports = {
     author: `Nestor Zepeda`,
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: "gatsby-plugin-prefetch-google-fonts",
       options: {

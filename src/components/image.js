@@ -18,7 +18,7 @@ const Image = () => {
     query {
       meImage: file(relativePath: { eq: "me.png" }) {
         childImageSharp {
-          sizes(maxWidth: 2500) {
+          sizes(maxWidth: 2500, quality: 90) {
             ...GatsbyImageSharpSizes
           }
         }
