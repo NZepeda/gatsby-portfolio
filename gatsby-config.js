@@ -7,6 +7,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-emotion`,
     {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true,
+      },
+    },
+    {
       resolve: "gatsby-plugin-prefetch-google-fonts",
       options: {
         fonts: [
