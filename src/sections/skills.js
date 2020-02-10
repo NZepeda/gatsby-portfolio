@@ -50,7 +50,7 @@ const SkillsList = () => {
 
 const Section = () => {
   return (
-    <div>
+    <div style={{ marginTop: 50 }}>
       <h2 css={headerFont}>My Skills</h2>
       <div css={sectionCSS}>
         <p>
