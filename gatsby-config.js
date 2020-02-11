@@ -13,24 +13,10 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-prefetch-google-fonts",
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        fonts: [
-          {
-            family: "Muli",
-            variants: [
-              "100",
-              "200",
-              "300",
-              "400",
-              "500",
-              "600",
-              "700",
-              "800",
-              "900",
-            ],
-          },
-        ],
+        fonts: [`Muli\:100,200,300,400,500,600,700,800,900`],
+        display: "swap",
       },
     },
     `gatsby-plugin-react-helmet`,
