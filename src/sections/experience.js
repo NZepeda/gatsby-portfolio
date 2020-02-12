@@ -1,5 +1,4 @@
 import React from "react"
-import { css } from "@emotion/core"
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 
 const Experience = () => {

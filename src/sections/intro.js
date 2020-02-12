@@ -29,19 +29,21 @@ const Info = () => {
         fontWeight: "600",
         color: "#9B9B9B",
         fontSize: ".9em",
-        display: "flex",
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+        gridColumnGap: 45,
         justifyContent: "space-between",
         marginTop: 25,
       }}
     >
-      <div style={{ maxWidth: "40%" }}>
+      <div>
         <p>I'm a 26 year old software engineer living in New York City</p>
         <p>
           I’m originally a California native and graduate from California State
           University, Monterey Bay.
         </p>
       </div>
-      <div style={{ maxWidth: "40%" }}>
+      <div>
         <p>
           In the few years I’ve worked as a professional software engineer, I
           have had the opportunity to work in great teams and create awesome
