@@ -20,11 +20,11 @@ const Experience = () => {
   return (
     <div css={{ marginTop: 50 }}>
       <h2 css={{ ...fontFamily, fontWeight: 900 }}>Experience</h2>
-      <Timeline lineColor={"#9B9B9B"} animate={true}>
+      <Timeline animate={true}>
         <TimelineItem
           key="001"
           dateText="07/2018 – Present"
-          dateInnerStyle={dateSubTitleStyle}
+          dateInnerStyle={{ ...dateSubTitleStyle, backgroundColor: "#4C8D8D" }}
         >
           <h3 css={dateTitleStyle}>ActiveViam</h3>
           <h4 css={dateSubTitleStyle}>Sofware Engineer</h4>
@@ -48,7 +48,7 @@ const Experience = () => {
         <TimelineItem
           key="002"
           dateText="02/2017 – 03/2018"
-          dateInnerStyle={{ background: "#61b8ff", ...dateSubTitleStyle }}
+          dateInnerStyle={{ ...dateSubTitleStyle, backgroundColor: "#9b9b9b" }}
         >
           <h3 css={dateTitleStyle}>Monterey Bay Aquarium</h3>
           <h4 css={dateSubTitleStyle}>Web Developer</h4>
@@ -72,7 +72,11 @@ const Experience = () => {
             </li>
           </ul>
         </TimelineItem>
-        <TimelineItem key="003" dateText="05/2015 – 08/2015">
+        <TimelineItem
+          key="003"
+          dateText="05/2015 – 08/2015"
+          dateInnerStyle={{ ...dateSubTitleStyle, backgroundColor: "#4C8D8D" }}
+        >
           <h3>PredPol</h3>
           <h4>Software Engineer Intern</h4>
           <ul css={listStyle}>
